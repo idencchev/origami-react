@@ -6,7 +6,7 @@ class Footer extends Component {
     }
 
     render() {
-        console.log(this.props);
+
         return (
             <footer className={this.props.style.footer}>
                 <li className={this.props.style.listItem}><a href="#">Going to 1</a></li>

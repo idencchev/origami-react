@@ -6,7 +6,7 @@
 .container {
   margin-top: 8.5%;
   padding: 0.5%;
-  /* border: 1px solid purple; */
+  border: 1px solid purple;
   margin-bottom: 0.1%;
 }
 
@@ -73,7 +73,7 @@ aside .listItem:hover {
   border-bottom: 2px solid #234465;
   color: #ffa000;
 }
-.аside {
+.aside {
   display: inline-block;
   width: 15%;
   margin-right: 1%;
@@ -116,4 +116,76 @@ footer .listItem:hover {
 .footer p {
   text-align: center;
   font-weight: bold;;
+}
+
+.main {
+  display: inline-block;
+  width: 83%;
+  height: auto;
+  /* border:1px solid blue; */
+  margin-bottom: 5%;
+}
+
+h1 {
+  text-align: center;
+  color: #234465;
+  text-decoration: underline;
+  margin-bottom: 2%;
+}
+
+/* Main Styles */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Posts Styles */
+
+.posts {
+  width: 100%;
+  /* border:1px solid red; */
+  height: 45vh;
+}
+
+/* Posts Styles */
+
+/* ------------------------------------------------------------------------------- */
+
+/* Post Styles */
+
+.post {
+  width: 100%;
+  height: auto;
+  border: 1px solid #234465;
+  margin-bottom: 3%;
+  border-radius: 4px;
+}
+
+.description {
+  word-wrap: break-word;
+  padding: 0.5%;
+  font-style: italic;
+  border:1px solid blue;
+  margin-bottom: 0.5%;
+  width: 95%;
+  display: inline-block;
+  vertical-align: top;
+  ;
+}
+
+.post div {
+  /* border:1px solid red; */
+  height: auto;
+  text-align: right;
+  margin-bottom: 0.5%;
+}
+
+.post div span {
+  text-decoration: underline;
+  text-align: right;
+  /* border:1px solid green; */
+  padding-right: 1%;
+}
+
+.post img {
+  width: 32px;
+  height: 32px;
 }
