@@ -1,9 +1,15 @@
 import style from './App.module.css';
+import Navigation from './components/Navigation';
+import Aside from './components/Aside';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className={style.app}>
-     <h1>Welcome</h1>
+      <Navigation style={style} />
+      <Aside style={style} />
+      <Footer style={style} />
+      
     </div>
   );
 }
