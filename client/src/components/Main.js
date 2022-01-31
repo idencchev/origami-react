@@ -23,7 +23,6 @@ class Main extends Component {
         return (
             <main className={this.props.style.main}>
                 <h1>Sooome Heading</h1>
-
                 {this.state.posts.map(x => {
                     return (<Post
                         style={this.props.style}
@@ -33,9 +32,6 @@ class Main extends Component {
                     />
                     )
                 })}
-
-
-
             </main>
         )
     }
