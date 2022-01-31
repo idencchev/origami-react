@@ -8,9 +8,12 @@ function App() {
   return (
     <div className={style.app}>
       <Navigation style={style} />
-      <Aside style={style} />
-      <Main style={style} />
+      <div className={style.container}>
+        <Aside style={style} />
+        <Main style={style} />
+      </div>
       <Footer style={style} />
+
 
     </div>
   );
