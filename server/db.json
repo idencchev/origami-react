@@ -1,0 +1,19 @@
+{
+    "origami": [
+        {
+            "id": 1,
+            "description": "Lorem ipsum",
+            "author": "Pesho"
+        },
+        {
+            "id": 2,
+            "description": "lorem ipsum 2",
+            "author": "Ivan"
+        },
+        {
+            "id": 2,
+            "description": "some description",
+            "author": "John"
+        }
+    ]
+}
