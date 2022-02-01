@@ -19,7 +19,7 @@ class Navigation extends Component {
                 <li className={this.props.style.listItem}><a href="#">Going to 8</a></li>
                 <li className={this.props.style.listItem}><a href="#">Going to 9</a></li>
                 <li className={this.props.style.listItem}><a href="#">Going to 10</a></li>
-                <li className={this.props.style.listItem}><a href="#">Going to 11</a></li>
+                <li className={this.props.style.listItem}><a href="/about">About</a></li>
             </nav>
         )
     }
