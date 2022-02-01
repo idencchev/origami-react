@@ -12,11 +12,22 @@ function App() {
     <div className={style.app}>
       <Navigation style={style} />
       <div className={style.container}>
+
         <Aside style={style} />
-     
-        <Route path="/about" component={About} />
-      
-        <Main style={style} />
+        
+        <Switch>
+          <Route path='/about'>
+            <About style={style} />
+          </Route>
+
+          <Route path='/main'>
+            <Main style={style} />
+          </Route>
+        </Switch>
+
+
+
+
       </div>
       <Footer style={style} />
 

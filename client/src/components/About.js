@@ -8,11 +8,11 @@ class About extends Component {
     render() {
 
         return (
-            <div>
+            <div className={this.props.style.main}>
                 <h1>
                     This is an example of about page.
-                </h1>
                 <p>Software University &copy; 2022</p>
+                </h1>
             </div>
         )
     }
