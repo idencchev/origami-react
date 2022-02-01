@@ -24,7 +24,8 @@ class Main extends Component {
             <main className={this.props.style.main}>
                 <h1>Sooome Heading</h1>
                 {this.state.posts.map(x => {
-                    return (<Post
+                    return (
+                    <Post
                         style={this.props.style}
                         key={x.id}
                         description={x.description}
